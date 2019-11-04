@@ -2,9 +2,10 @@
 public class Min {
     static void min(int array[], int n)
     {
-        int firstmin = array[0];
-        int secmin = array[0];
-        int thirdmin = array[0];
+        int firstmin = Integer.MAX_VALUE ;
+        int secmin = Integer.MAX_VALUE ;
+        int thirdmin = Integer.MAX_VALUE ;
+
         for (int i = 0; i < n; i++)
         {
             if (array[i] < firstmin)
